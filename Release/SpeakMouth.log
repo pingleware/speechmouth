@@ -1,0 +1,12 @@
+﻿  StdAfx.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  SpeakMouth.cpp
+c:\program files (x86)\windows kits\8.1\include\um\sphelper.h(1319): warning C4996: 'GetVersionExA': was declared deprecated
+  c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(433): note: see declaration of 'GetVersionExA'
+c:\users\tbear\source\repos\speakmouth\speakmouth.cpp(52): warning C4996: 'CWinApp::Enable3dControls': CWinApp::Enable3dControls is no longer needed. You should remove this call.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxwin2.inl(1074): note: see declaration of 'CWinApp::Enable3dControls'
+  SpeakMouthDlg.cpp
+c:\program files (x86)\windows kits\8.1\include\um\sphelper.h(1319): warning C4996: 'GetVersionExA': was declared deprecated
+  c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(433): note: see declaration of 'GetVersionExA'
+  Generating Code...
+  SpeakMouth.vcxproj -> C:\Users\tbear\source\repos\SpeakMouth\.\Release\SpeakMouth.exe

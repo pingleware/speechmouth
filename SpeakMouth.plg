@@ -1,0 +1,35 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SpeakMouth - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\agusk\LOCALS~1\Temp\RSP14EE.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "D:\Program Files\Microsoft Speech SDK 5.1\Include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/SpeakMouth.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Dataku\Data\MyProject\VisualC++\Speech\SpeakMouth\SpeakMouthDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\agusk\LOCALS~1\Temp\RSP14EE.tmp" 
+Creating temporary file "C:\DOCUME~1\agusk\LOCALS~1\Temp\RSP14EF.tmp" with contents
+[
+sapi.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/SpeakMouth.pdb" /debug /machine:I386 /out:"Debug/SpeakMouth.exe" /pdbtype:sept /libpath:"D:\Program Files\Microsoft Speech SDK 5.1\Lib\i386" 
+".\Debug\SpeakMouth.obj"
+".\Debug\SpeakMouthDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\SpeakMouth.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\agusk\LOCALS~1\Temp\RSP14EF.tmp"
+<h3>Output Window</h3>
+Compiling...
+SpeakMouthDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+SpeakMouth.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

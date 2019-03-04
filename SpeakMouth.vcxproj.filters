@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{22deff94-f1a6-493e-b83b-cbe3f5910b49}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{d4488ce2-6781-46eb-9683-32fcf4b02dc2}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{a2e60b7a-13e5-43de-bb9f-0ee702f733a1}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SpeakMouth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeakMouthDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SpeakMouth.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpeakMouth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpeakMouthDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\mic eyes closed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mic.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mic_eyes_narrow.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mic_mouth_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mic_mouth_11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mic_mouth_12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mic_mouth_13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mic_mouth_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mic_mouth_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mic_mouth_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mic_mouth_5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mic_mouth_6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mic_mouth_7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mic_mouth_8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mic_mouth_9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SpeakMouth.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\SpeakMouth.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
